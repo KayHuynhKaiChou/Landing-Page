@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-item{
+  cursor: pointer;
+}
+
+.nav-item:hover .nav-link{
+  transform: translateY(-50px);
+}
+
+.nav-item:hover .nav-link:nth-child(2){
+  color: black;
+  font-size: 17px;
+}
+
+.nav-link{
+  transition: all 0.2s linear;
+}
+
+.nav-link:nth-child(2){
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  pointer-events: none;
+  color: #fff;
+}

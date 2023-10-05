@@ -1,0 +1,28 @@
+
+
+.card{
+    width: 100%;
+    height: fit-content;
+    top: 28px;
+    border-radius: 10px;
+
+    .image-main{
+        width: 100%;
+    }
+
+    .card-content{
+        background-color: aqua;
+        .title{
+            display: flex;
+            font-family: Poppins;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+
+
+}
