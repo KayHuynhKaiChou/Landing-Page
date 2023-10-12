@@ -14,15 +14,33 @@ export default function Card(props) {
         price = '30.5$'
     } = props
 
+    function formatNumber(number) {
+        if (number >= 1000) {
+          return (number / 1000).toFixed(1) + 'k';
+        } else {
+          return number.toString();
+        }
+    }
+
     return (
         <div className={style['card']}>
             <img className={style['image-main']} src={urlImg} alt='img-work'/>
             <div className={style['card-content']}>
                 <div className={style['title']}>
                     <p>{title}</p>
-                    <img src={star} alt='star'/>
+                    <div className={style['rating']}>
+                        <img src={star} alt='star'/>
+                        <div>{rating}</div>
+                    </div>
                 </div>
-
+                <div className={style['number']}>
+                    <div className={style['week']}>{`${numWeek} weeks`}</div>
+                    <div className={style['student']}>
+                        <i class="fa-solid fa-user-group"></i>
+                        {`${formatNumber(numStudent)} Students`}
+                    </div>
+                    <div className={style['price']}>{price}</div>
+                </div>
             </div>
         </div>
     )

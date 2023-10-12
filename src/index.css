@@ -35,5 +35,35 @@ code {
   top: 50px;
   z-index: 1;
   pointer-events: none;
-  color: #fff;
+  color: transparent;
+}
+
+/* custome css slider slick*/
+
+.Categories_cate-body__drl9r .slick-list{
+  margin-right: -15px !important;
+}
+
+.Skills_skill-body__SDPOX .slick-list{
+  margin-right: -46px !important;
+}
+
+.slick-prev{
+  z-index: 1;
+  left: 20px !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+/* .slick-prev:hover ,
+.slick-next:hover {
+  background: #09B451 !important;  
+  color: #fff !important;
+} */
+
+.slick-next{
+  z-index: 1;
+  right: 20px !important;
+  width: 50px !important;
+  height: 50px !important;
 }

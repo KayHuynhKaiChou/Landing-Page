@@ -1,31 +1,31 @@
-import workTogether from '../asserts/image/workTogether.png'
-import image2 from '../asserts/image/image2.png'
-import ux from '../asserts/image/ux.png'
+import skill1 from '../asserts/image/skill1.png'
+import skill2 from '../asserts/image/skill2.png'
+import skill3 from '../asserts/image/skill3.png'
 import Ease from '../asserts/image/Ease.png'
 import DataAnalysis from '../asserts/image/DataAnalysis.png'
 import Hacking from '../asserts/image/Hacking.png'
 
 
-export const courses = [
+export const skills = [
     {
-        image : workTogether,
-        title : 'Learn Marketing From Top Instructors',
+        image : skill3,
+        title : 'All you need in Business Strategy',
         rate : '4.5',
         weeks : 6,
         students : 1500,
         price : '30.5$'
     },
     {
-        image : image2,
-        title : 'Front-end development is not hard as you think',
+        image : skill2,
+        title : 'The amazing hack in Figma prototyping',
         rate : '4.5',
         weeks : 6,
         students : 1500,
         price : '30.5$'
     },
     {
-        image : ux,
-        title : 'Everrything you need to know in UX',
+        image : skill1,
+        title : 'Introduction to basic game developement',
         rate : '4.5',
         weeks : 6,
         students : 1500,
