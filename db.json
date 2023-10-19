@@ -1,0 +1,56 @@
+{
+    "courses": [
+        {
+            "image" : "../../asserts/image/workTogether.png",
+            "title" : "Learn Marketing From Top Instructors",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        },
+        {
+            "image" : "../../asserts/image/image2.png",
+            "title" : "Front-end development is not hard as you think",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        },
+        {
+            "image" : "../../asserts/image/ux.png",
+            "title" : "Everrything you need to know in UX",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        },
+        {
+            "image" : "../../asserts/image/Ease.png",
+            "title" : "Learn photography with ease",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        },
+        {
+            "image" : "../../asserts/image/DataAnalysis.png",
+            "title" : "Be a pro in data analysis",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        },
+        {
+            "image" : "../../asserts/image/Hacking.png",
+            "title" : "Ethical Harking is not hard as you think ",
+            "rate" : 4.5,
+            "weeks" : 6,
+            "students" : 1500,
+            "price" : "30.5$"
+        }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}

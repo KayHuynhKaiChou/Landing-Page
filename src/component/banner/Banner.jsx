@@ -5,7 +5,7 @@ import girlStudent from '../../asserts/image/girlStudent.png'
 
 export default function Banner() {
   return (
-    <div id='Banner' style={{position:"relative"}}>
+    <div id='Banner' style={{position:"relative"}} data-aos={'fade-right'}>
       <div className="d-flex banner-background">
         <div className="left-corner"></div>
         <div className="right-corner"></div>

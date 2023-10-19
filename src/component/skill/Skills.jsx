@@ -22,7 +22,7 @@ export default function Skills() {
       };
     
     return (
-        <div>
+        <div data-aos='fade-right'>
             <div className={style['skill-header']}>
                 Learn a new skill in two hours
             </div>

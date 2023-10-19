@@ -9,7 +9,7 @@ import bag from "./assets/Frame 6544.png";
 export default function OurEducations() {
   return (
     <>
-      <div id="our-educations">
+      <div id="our-educations" data-aos='fade-left'>
         <div className="p-3">
           <h2 style={{fontWeight:"bold"}}>We Bring The Good Education To Life</h2>
         </div>

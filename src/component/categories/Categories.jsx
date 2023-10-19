@@ -26,7 +26,7 @@ export default function Categories() {
   };
 
   return (
-    <div>
+    <div data-aos='fade-left'>
       <div className={style['cate-header']}>
         <div className={style['cate-header__title']}>Choose favourite course from top cartegories</div>
         <div className={style['cate-header__action']}>See all</div>

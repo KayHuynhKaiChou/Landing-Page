@@ -9,8 +9,16 @@ import StudentReviews from '../../component/StudentReviews/StudentReviews';
 import Instructors from '../../component/Instructors/Instructors';
 import StudentFirstSteps from '../../component/StudentFirstSteps/StudentFirstSteps';
 import Footer from '../../component/footer/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+    duration: 1500,
+    mirror: false
+});
+
 
 export default function HomePage() {
+
   return (
       <div>
         <div className='container'>

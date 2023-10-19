@@ -1,7 +1,11 @@
 import {AiOutlineSearch} from 'react-icons/ai'
 import style from '../menu/Menu.module.scss'
+import { useNavigate } from 'react-router-dom'
 
 export default function Menu() {
+
+    const navigate = useNavigate();
+
   return (    
     <div className={`navbar ${style.menu} navbar-expand-lg`}>
         <div className={`container-fluid`}>
@@ -36,7 +40,7 @@ export default function Menu() {
             </div>
             <div className={`${style['action-user']}`}>
                 <AiOutlineSearch />
-                <div className={style.login}>Login</div>
+                <div className={style.login} onClick={() => navigate('/login')}>Login</div>
                 <div className={style.register}>Register</div>
             </div>
 
